@@ -26,7 +26,7 @@
         height: undefined,
         width: undefined,
         minHeight: 500,
-        automatic: false,
+        automatic: true,
         dirButtons: true,
         dirButtonNext: "next",
         dirButtonPrev: "prev",
