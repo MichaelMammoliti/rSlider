@@ -1,3 +1,21 @@
+/*
+  # ----- Script info:
+  - Author: Michael Mammoliti
+  - Name: rSlider.js
+  - Version: 0.2.1
+  - js dipendencies: jQuery
+  - Release date: 8 February 2016
+  - GitHub: https://github.com/MichaelMammoliti/rSlider.js
+
+  # ----- Contact info
+  - GitHub: https://github.com/MichaelMammoliti
+  - Mail: mammoliti.michael@gmail.com
+  - Twitter: @MichMammoliti
+
+  # ----- License Info
+  - Released under the GPL v3 license.
+*/
+
 * { padding: 0; margin: 0; border: 0; color: #888; font-family: "Source Sans Pro", sans-serif; font-weight: 300; outline: none; box-sizing: border-box; }
 
 html { font-size: 1rem; padding: 20px; }
@@ -10,7 +28,7 @@ body { width: 100%; min-width: 200px; margin: auto; }
 .rSlider > .rSlider--view > .rSlider--slide { float: left; overflow: hidden; position: relative; display: block; overflow: hidden; }
 .rSlider > .rSlider--view > .rSlider--slide:before { content: " "; display: block; }
 .rSlider > .rSlider--view > .rSlider--slide > .rSlider--image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center center; z-index: 0; }
-.rSlider > .rSlider--view > .rSlider--slide > .rSlider--container { padding: 150px 100px; max-width: 1200px; width: 100%; position: relative; z-index: 2; top: 50%; left: 0; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); display: block; overflow: hidden; }
+.rSlider > .rSlider--view > .rSlider--slide > .rSlider--container { padding: 150px 100px; max-width: 1200px; margin: auto; width: 100%; position: relative; z-index: 2; top: 50%; left: 0; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); display: block; overflow: hidden; }
 .rSlider > .rSlider--view > .rSlider--slide > .rSlider--container:before { content: " "; display: block; }
 .rSlider > .rSlider--view > .rSlider--slide > .rSlider--bg-color { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 1; }
 .rSlider > .rSlider--dots-controls { padding: 20px; position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); z-index: 2; display: block; overflow: hidden; }
