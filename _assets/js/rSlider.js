@@ -1,3 +1,21 @@
+/*
+  # ----- Script info:
+  - Author: Michael Mammoliti
+  - Name: rSlider.js
+  - Version: 0.2.1
+  - js dipendencies: jQuery
+  - Release date: 8 February 2016
+  - GitHub: https://github.com/MichaelMammoliti/rSlider.js
+
+  # ----- Contact info
+  - GitHub: https://github.com/MichaelMammoliti
+  - Mail: mammoliti.michael@gmail.com
+  - Twitter: @MichMammoliti
+
+  # ----- License Info
+  - Released under the GPL v3 license.
+*/
+
 (function(){
 
   var pluginName  = "rSlider",
